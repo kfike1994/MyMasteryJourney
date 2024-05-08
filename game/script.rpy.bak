@@ -65,7 +65,7 @@ label start:
             jump job
 
         "Continue..." if (viewed >= 7):
-            call reflection from _call_reflection
+            call reflection
 
     return
 
